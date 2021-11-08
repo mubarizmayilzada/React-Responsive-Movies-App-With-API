@@ -9,8 +9,6 @@ import Footer from './components/footer/Footer';
 
 import Routes from "./config/Routes";
 
-import axios from 'axios';
-import axiosClient from "./api/axiosClient";
 
 
 
@@ -26,7 +24,6 @@ function App() {
           <Header {...props}/>
           <Routes/>
           <Footer/>
-          vahid
         </div>
       )}/>
     </BrowserRouter>
