@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 import './modal.scss';
 
@@ -24,7 +24,7 @@ Modal.propTypes = {
 };
 
 export const ModalContent = props => {
-    const constRef = useRef(null);
+    const contentRef = useRef(null);
 
     const closeModal = () => {
         contentRef.current.parentNode.classList.remove('active');
